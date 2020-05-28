@@ -1,0 +1,56 @@
+.inner {
+    margin: 20px 40px;
+    border: #9E9E9E 1px solid;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+.subrule{
+    display: block;
+    margin-top: 10px;
+}
+.subrule select{
+    margin: 0px 20px;
+}
+.inner img {
+    float: right;
+    padding: 2px;
+    height: 20px;
+}
+input[type="button"]{
+    margin-top: 20px;
+}
+.container {
+	margin-right: auto;
+	margin-left: auto;
+}
+.outer{
+	max-width: 830px;
+}
+
+#subheader{
+	width: 20%;
+}
+
+#subheader > h4{
+	display: inline;
+}
+
+.subrule > span {
+	padding-left: 2px;
+	margin-left: 5px;
+}
+span.error-msg {
+    font-size: 14px;
+    font-style: italic;
+    color: red;
+}
+span#rulemsg {
+    color: green;
+}
+div#msgdiv{
+    text-align: center;
+}
+
+span#deny-rules.hide{
+    display: none;
+}

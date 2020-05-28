@@ -1,0 +1,13 @@
+{
+    "arithemticops": [
+        "lessthan",
+        "greater",
+        "equals",
+        "contains",
+        "lessequal",
+        "greaterequal"
+    ],
+    "logicalOps": [
+        "And"
+    ]
+}

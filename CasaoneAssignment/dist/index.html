@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Rule Engine
+    </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="outercontainer" class="container outer">
+        <h2>Rule Builder</h2>
+        <button id="addButton" disabled>Add rule</button>
+        <div id='msgdiv' name="msgdiv">
+            <span id='rulemsg'></span>
+        </div>
+        <div id="innercontainer" class="container inner">
+            <!-- Place holder to create rules-->
+            <div id = 'subheader' class="subhead">
+                <h4>Create sub rules</h4>
+                <img src="./static/icons8-plus-16.png" id='addSubrule'>
+                
+            </div>
+            <div style="display: inline-block;">
+                <span id='deny-rules' class='hide'> Cannot add sub rules more than 5</span>
+            </div>
+            <form id="ruleform">
+                <div id='inputs' class="input-group">
+
+                </div>
+                <input type="button" value="Save" name="save">
+            </form>
+        </div>
+    </div>
+    <script src="bundle.js"></script>
+</body>
+
+</html>

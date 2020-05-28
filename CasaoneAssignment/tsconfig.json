@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "target": "es5"
+  },
+  "files": [
+    "src/ts/renderer.ts",
+    "src/ts/component.ts",
+    "src/ts/httpHelper.ts",
+    "src/ts/formUtils.ts",
+    "src/ts/validator.ts",
+    "src/ts/interfaces.ts"
+  ]
+}
